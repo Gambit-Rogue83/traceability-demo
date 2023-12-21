@@ -9,3 +9,5 @@ app.use(cors())
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/index.html'))
 })
+
+app.listen(4000, () => console.log('Up on 4000'))
